@@ -5,11 +5,18 @@
 }
 
 .container {
-    margin: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 690px;
 }
 
 .box {
     width: 50px;
     height: 50px;
     border: 1px solid black;
+    float: left;
+    margin: 8px;
 }
