@@ -10,13 +10,13 @@ for (i=0; i<numberOfBoxes; i++) {
 }
 
 // Selected on click
-const boxes = document.querySelectorAll('.box');
+// const boxes = document.querySelectorAll('.box');
 
-boxes.forEach(box => {
-    box.addEventListener('click', () => {
-        box.classList.add('selected');
-    }) 
-})
+// boxes.forEach(box => {
+//     box.addEventListener('click', () => {
+//         box.classList.add('selected');
+//     }) 
+// })
 
 
 // Slected every 10 minutes
