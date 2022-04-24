@@ -1,5 +1,3 @@
-// 100 Rectangles
-
 // Boxes
 const numberOfBoxes = 144;
 
@@ -8,16 +6,6 @@ for (i=0; i<numberOfBoxes; i++) {
     boxes.classList.add('box')
     document.getElementById('boxes').appendChild(boxes);
 }
-
-// Selected on click
-// const boxes = document.querySelectorAll('.box');
-
-// boxes.forEach(box => {
-//     box.addEventListener('click', () => {
-//         box.classList.add('selected');
-//     }) 
-// })
-
 
 // Slected every 10 minutes
 const minSinceMidnight = () => {
