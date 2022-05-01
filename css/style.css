@@ -1,9 +1,25 @@
 body {
+    font-size: 1.2rem;
     color: white;
     background-color: #3E4257;
     margin: 0 auto;
 }
 
+/* DX */
+.description {
+    position: relative;
+}
+.credit {
+    position: absolute;
+    bottom: 0;
+}
+
+i:hover {
+    color: white;
+    transition: .3s;
+}
+
+/* SX */
 #boxes {
     text-align: right;
 }
@@ -21,4 +37,5 @@ body {
 
 .selected {
     background-color: #636a86;
+    transition: .3s;
 }
