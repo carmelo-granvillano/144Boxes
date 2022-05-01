@@ -1,17 +1,21 @@
 body {
-    text-align: center;
+    color: white;
     background-color: #3E4257;
     margin: 0 auto;
+}
+
+#boxes {
+    text-align: right;
 }
 
 .box {
     display: inline-block;
     
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.2rem;
+    height: 2.2rem;
 
     border: 1px solid #8891BD;
-    margin: .4rem;
+    margin: .3rem;
     padding: .3rem;
 }
 

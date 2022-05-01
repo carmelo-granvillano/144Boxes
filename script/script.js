@@ -2,9 +2,9 @@
 const numberOfBoxes = 144;
 
 for (i=0; i<numberOfBoxes; i++) {
-    const boxes = document.createElement('div');
-    boxes.classList.add('box')
-    document.getElementById('boxes').appendChild(boxes);
+  const boxes = document.createElement('div');
+  boxes.classList.add('box');
+  document.getElementById('boxes').appendChild(boxes);
 }
 
 // Slected every 10 minutes
